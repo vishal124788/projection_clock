@@ -7,7 +7,7 @@
         <srcFile name="package/cfg/projector_clock_pem4f.c"/>
     </sources>
     <configscripts>
-        <srcFile name="C:/Users/Sonu/workspace_v6_1/projector_clock/projector_clock.cfg"/>
+        <srcFile name="C:/Users/Sonu/git/projection_clock/projector_clock/projector_clock.cfg"/>
     </configscripts>
     <makefiles>
         <srcFile name="package.mak" src="package.bld"/>
@@ -44,7 +44,7 @@
         isPartial="false"
         xCfgScript="package/cfg/projector_clock_pem4f.cfg"
         xCfgPrefix="package/cfg/projector_clock_pem4f"
-        cfgScript="C:/Users/Sonu/workspace_v6_1/projector_clock/projector_clock.cfg"
+        cfgScript="C:/Users/Sonu/git/projection_clock/projector_clock/projector_clock.cfg"
         cfgArgs="null"
         />
     </configurations>
@@ -56,7 +56,7 @@
         profile="release"
         xCfgScript="package/cfg/projector_clock_pem4f.cfg"
         xCfgPrefix="package/cfg/projector_clock_pem4f"
-        cfgScript="C:/Users/Sonu/workspace_v6_1/projector_clock/projector_clock.cfg"
+        cfgScript="C:/Users/Sonu/git/projection_clock/projector_clock/projector_clock.cfg"
         cfgArgs="null"
         />
     </executables>

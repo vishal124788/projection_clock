@@ -11,7 +11,7 @@ var makeAssembly = false;
 var Executable = xdc.module('xdc.bld.Executable');
 
 var exeOpts = new Executable.Attrs({
-        cfgScript: 'C:/Users/Sonu/workspace_v6_1/projector_clock/projector_clock.cfg',
+        cfgScript: 'C:/Users/Sonu/git/projection_clock/projector_clock/projector_clock.cfg',
         profile: 'release',
         cfgHome: 'configPkg',
 });
@@ -41,7 +41,7 @@ else {
 
 var thisObj = {
     cfg:        '../projector_clock.cfg',
-    outputPath: 'C:/Users/Sonu/workspace_v6_1/projector_clock/Debug/configPkg',
+    outputPath: 'C:/Users/Sonu/git/projection_clock/projector_clock/Debug/configPkg',
     exeName:    'projector_clock' + suffix,
     exeIntName: 'projector_clock' + suffix.replace('.', '_'),
     targ:       targ,

@@ -9,7 +9,7 @@
  */
 
 
--l"C:\Users\Sonu\workspace_v6_1\projector_clock\Debug\configPkg\package\cfg\projector_clock_pem4f.oem4f"
+-l"C:\Users\Sonu\git\projection_clock\projector_clock\Debug\configPkg\package\cfg\projector_clock_pem4f.oem4f"
 -l"C:\ti\bios_6_45_00_20\packages\ti\catalog\arm\cortexm4\tiva\ce\lib\Boot.aem4f"
 -l"C:\ti\bios_6_45_00_20\packages\ti\targets\arm\rtsarm\lib\ti.targets.arm.rtsarm.aem4f"
 -l"C:\ti\bios_6_45_00_20\packages\ti\targets\arm\rtsarm\lib\boot.aem4f"

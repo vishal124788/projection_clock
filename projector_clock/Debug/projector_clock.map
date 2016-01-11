@@ -1,7 +1,7 @@
 ******************************************************************************
                   TI ARM Linker PC v5.2.5                      
 ******************************************************************************
->> Linked Mon Jan 11 22:24:26 2016
+>> Linked Mon Jan 11 23:00:12 2016
 
 OUTPUT FILE NAME:   <projector_clock.out>
 ENTRY POINT SYMBOL: "_c_int00"  address: 00001929
@@ -254,8 +254,8 @@ section   page    origin      length       input sections
                   200025b4    00000008                                   : exit.obj (.data)
                   200025bc    00000004                                   : stkdepth_vars.obj (.data)
 
-xdc.meta   0    00000000    000000ef     COPY SECTION
-                  00000000    000000ef     projector_clock_pem4f.oem4f (xdc.meta)
+xdc.meta   0    00000000    000000f5     COPY SECTION
+                  00000000    000000f5     projector_clock_pem4f.oem4f (xdc.meta)
 
 .TI.persistent 
 *          0    20002528    00000000     UNINITIALIZED
@@ -296,13 +296,13 @@ UNDEFED   SHT$$INIT_ARRAY$$Base
 UNDEFED   SHT$$INIT_ARRAY$$Limit                                               
 00000000  __ASM__                                                              
 20002400  __CIOBUF_                                                            
-0000006d  __ISA__                                                              
-00000080  __PLAT__                                                             
+00000073  __ISA__                                                              
+00000086  __PLAT__                                                             
 20001000  __STACK_END                                                          
 00001000  __STACK_SIZE                                                         
 20000200  __STACK_TOP                                                          
 00001000  __SYSMEM_SIZE                                                        
-000000a1  __TARG__                                                             
+000000a7  __TARG__                                                             
 00002c68  __TI_CINIT_Base                                                      
 00002c78  __TI_CINIT_Limit                                                     
 00002c54  __TI_Handler_Table_Base                                              
@@ -316,7 +316,7 @@ UNDEFED   SHT$$INIT_ARRAY$$Limit
 00002bf8  __TI_static_base__                                                   
 00001799  __TI_writemsg                                                        
 00002131  __TI_zero_init                                                       
-000000c7  __TRDR__                                                             
+000000cd  __TRDR__                                                             
 0000153f  __aeabi_idiv0                                                        
 000015d9  __aeabi_memclr                                                       
 000015d9  __aeabi_memclr4                                                      
@@ -530,11 +530,11 @@ address   name
 00000001  xdc_runtime_Startup__EXECFXN__C                                      
 00000001  xdc_runtime_Startup__RESETFXN__C                                     
 00000009  minit                                                                
-0000006d  __ISA__                                                              
-00000080  __PLAT__                                                             
+00000073  __ISA__                                                              
+00000086  __PLAT__                                                             
 00000097  malloc                                                               
-000000a1  __TARG__                                                             
-000000c7  __TRDR__                                                             
+000000a7  __TARG__                                                             
+000000cd  __TRDR__                                                             
 000000ff  free                                                                 
 000001c1  realloc                                                              
 000002cd  memalign                                                             

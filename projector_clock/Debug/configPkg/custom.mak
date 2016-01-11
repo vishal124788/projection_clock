@@ -7,5 +7,5 @@
 #       or equal to the generated config header
 #
 linker.cmd: package/cfg/projector_clock_pem4f.xdl
-	$(SED) 's"^\"\(package/cfg/projector_clock_pem4fcfg.cmd\)\"$""\"C:/Users/Sonu/workspace_v6_1/projector_clock/Debug/configPkg/\1\""' package/cfg/projector_clock_pem4f.xdl > $@
+	$(SED) 's"^\"\(package/cfg/projector_clock_pem4fcfg.cmd\)\"$""\"C:/Users/Sonu/git/projection_clock/projector_clock/Debug/configPkg/\1\""' package/cfg/projector_clock_pem4f.xdl > $@
 	-$(SETDATE) -r:max package/cfg/projector_clock_pem4f.h compiler.opt compiler.opt.defs

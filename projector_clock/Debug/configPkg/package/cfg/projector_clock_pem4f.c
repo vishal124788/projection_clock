@@ -599,7 +599,7 @@ const __T1_xdc_runtime_Text_nodeTab xdc_runtime_Text_nodeTab__A[24];
  *  Define absolute path prefix for this executable's
  *  configuration generated files.
  */
-xdc__META(__ASM__, "@(#)__ASM__ = C:/Users/Sonu/workspace_v6_1/projector_clock/Debug/configPkg/package/cfg/projector_clock_pem4f");
+xdc__META(__ASM__, "@(#)__ASM__ = C:/Users/Sonu/git/projection_clock/projector_clock/Debug/configPkg/package/cfg/projector_clock_pem4f");
 
 /*
  *  ======== __ISA__ ========
